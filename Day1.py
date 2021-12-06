@@ -20,6 +20,7 @@ print('Total number of increases:', increases)
 
 ##### PART 2 #####
 def list_sum(my_list):
+    '''Sums up all elements in integer list'''
     sum = 0
 
     for num in my_list:
@@ -27,6 +28,7 @@ def list_sum(my_list):
     
     return sum
 
+# Get increases
 last_sum = list_sum(depths[0:3])
 increases = 0
 for i in range(3, len(depths)):
